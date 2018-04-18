@@ -1,0 +1,181 @@
+/***** BASE STYLES *****/
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+#Intro, #About, #Skills, #Work {
+    height: 600px;
+    padding: 75px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float:left;
+}
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float:left;
+}
+
+/***** HEADER *****/
+header img {
+  float: left;
+  padding: 20px 75px;
+}
+
+nav{
+      float:right;
+      padding: 20px 40px;
+}
+nav ul li{
+      display: inline-block;
+}
+nav ul li a {
+      text-transform:uppercase;
+      font-weight: bold;
+      text-decoration:none;
+      font-size:18px;
+      color: black;
+      padding-left: 40px;
+    }
+nav ul li a:hover {
+      color:#13b391;
+    }
+
+
+/***** Intro *****/
+
+#Intro{
+    background-image: url(file:///Users/rubahaddadbossie/Desktop/milestone_portfolio/img/perspective.jpg);
+    background-size:cover;
+    clear: both;
+}
+
+#Intro h1{
+       font-family:  'Francois One', sans-serif;
+       font-size:30px;
+       color: white;
+}
+
+#Intro p {
+    text-align: justify;
+}
+
+/***** ABOUT *****/
+
+#About h2 {
+    font-family: 'Francois One', sans-serif;
+    font-size:36px;
+}
+#About p {
+    font-size:20px;
+    line-height: 40px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+
+/***** SKILLS *****/
+
+#Skills {
+  background: #b5b5b5;
+  text-align: center;
+}
+#Skills h2 {
+  font-family: 'Francois One', sans-serif;
+  font-size:36px;
+  color: black;
+  text-align: left;
+
+}
+#Skills h3 {
+  font-size: 20px;
+  color: white;
+  width:190px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+#Skills p {
+  font-size:18px;
+  line-height:35px;
+  padding: 0 35px;
+}
+/***** WORK *****/
+
+#Work {
+  background: white;
+  text-align: center;
+}
+#Work  h2 {
+  font-family: 'Francois One', sans-serif;
+  font-size:36px;
+  color: black;
+  text-align: left;
+
+}
+#Work  h3 {
+  font-size: 20px;
+  color: #13b391;
+  width:190px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+#Work  p {
+  font-size:18px;
+  line-height:35px;
+  padding: 0 35px;
+}
+/***** CONTACT *****/
+#Contact .full-width {
+    padding: 75px;
+    position: relative;
+}
+#Contact {
+  background: #b5b5b5;
+  height: 400px;
+}
+#Contact  h2 {
+  font-family: 'Francois One', sans-serif;
+  font-size:36px;
+  color: black;
+}
+
+#Contact  p {
+  font-size:20px;
+  color:white;
+  text-align: left;
+
+}
+
+#Contact a {
+    text-decoration:none;
+    color:white;
+    font-weight:normal;
+    font-size: 20px;
+}
+
+#Contact ul {
+    list-style: none;
+    position: absolute;
+    bottom: -80px;
+    right: 100px;
+
+}
+#Contact ul li {
+     display: inline-block;
+}
+#Contact ul img {
+    padding-right: 48px;
+}
